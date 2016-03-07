@@ -84,6 +84,8 @@ int main(){
 	a -= b;
 	cout << a.x << " " << a.y << endl;
 
+	a.SetZero();
+
 	getchar();
 	return 0;
 }
